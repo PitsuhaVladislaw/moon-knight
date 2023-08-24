@@ -1,0 +1,44 @@
+.gall-pic {
+  height: auto;
+  width: auto;
+  padding: 28px 23px 20px;
+  outline: 10px solid #000;
+  background: #888;
+}
+.gall-pic h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 69px;
+  width: auto;
+  border: 2px solid #000;
+  background: #FFF;
+  margin: 0 auto;
+  color: #000;
+  text-align: center;
+  font-family: IBM Plex Serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 24px;
+}
+.gall-pic article {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  align-items: center;
+  gap: 42px 8px;
+  justify-content: space-evenly;
+  margin: 40px auto 20px;
+  height: auto;
+  width: auto;
+}
+.gall-pic article div {
+  width: 200px;
+  height: 146px;
+  outline: 1px solid #000;
+}
+.gall-pic article div img {
+  width: 200px;
+  height: 146px;
+}/*# sourceMappingURL=Gallery.css.map */

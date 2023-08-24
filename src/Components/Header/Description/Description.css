@@ -1,0 +1,32 @@
+.description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 68px;
+  width: auto;
+  height: auto;
+  justify-content: space-evenly;
+}
+.description img {
+  width: 551px;
+  height: 451px;
+}
+
+.desc-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+.desc-text p {
+  color: #FFF;
+  text-align: justify;
+  font-family: Hahmlet;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}/*# sourceMappingURL=Description.css.map */

@@ -1,0 +1,61 @@
+.nav-menu {
+    position: sticky;
+    z-index: 7;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    border-top: 5px solid white;
+    background: black;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 92px;
+        color: #FFF;
+        text-align: center;
+        font-family: Bradley Hand ITC;
+        font-size: 30px;
+        font-style: oblique;
+        font-weight: 400;
+        line-height: 30px;
+        text-transform: uppercase;
+        letter-spacing: 100px;
+        margin: 0;
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+
+        button {
+            background: black;
+            margin: 15px auto 15px;
+            width: 180px;
+            height: 62px;
+            outline: 3px solid #FFF;
+            color: #FFF;
+            text-align: center;
+            font-family: Bradley Hand ITC;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+        }
+    
+        button:hover {
+            color: hsla(51, 84%, 35%, 0.88);
+            letter-spacing: 5px;
+            background: #ffffff29;
+        }
+    }
+
+    .closeNav {
+        display: none;
+    }
+}

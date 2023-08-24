@@ -1,0 +1,38 @@
+.block_episode {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: 5px ridge #5A5959;
+    height: 280px;
+    width: 308px;
+
+    img {
+        width: 290px;
+        height: 205px;
+    }
+}
+
+.block_episode:hover {
+    outline: 5px ridge #ffffff;
+}
+
+.block_text_epi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 55px;
+    width: 305px;
+    letter-spacing: 15px;
+
+    h4 {
+        font-size: 25px;
+        color: black;
+        font-weight: 700;
+        font-style: italic;
+        text-align: center;
+        line-height: 0px;
+        height: auto;
+    }
+}

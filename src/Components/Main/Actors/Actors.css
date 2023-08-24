@@ -1,0 +1,51 @@
+.actors {
+  background: #D8D8D8;
+  padding-top: 29px;
+  padding-bottom: 87px;
+}
+.actors header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.actors header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  width: 900px;
+  height: 88px;
+  letter-spacing: 20px;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 auto;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 128px;
+  outline: 1px solid rgb(0, 0, 0);
+  border-radius: 50%;
+}
+
+.arrow:hover {
+  background-color: white;
+  outline: 3px solid black;
+  border-radius: 50px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  justify-content: space-evenly;
+  margin: 29px auto 0;
+}/*# sourceMappingURL=Actors.css.map */

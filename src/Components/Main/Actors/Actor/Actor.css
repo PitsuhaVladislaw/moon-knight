@@ -1,0 +1,46 @@
+.actor-block {
+  background-color: white;
+  outline: 7px double black;
+  width: 560px;
+  height: auto;
+  display: flex;
+  padding: 10px 31px 10px 31px;
+  margin: 10px;
+}
+.actor-block img {
+  height: 220px;
+  width: 190px;
+  outline: 4px solid black;
+}
+
+.menu-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-left: 50px;
+}
+.menu-info div {
+  width: 285px;
+  line-height: 30px;
+}
+.menu-info h2 {
+  display: flex;
+  width: 285px;
+  height: 132px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  font-size: 26px;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  letter-spacing: 10px;
+  margin: 0 auto 32px;
+}
+.menu-info h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+}/*# sourceMappingURL=Actor.css.map */

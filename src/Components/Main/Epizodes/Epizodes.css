@@ -1,0 +1,31 @@
+.epizodes {
+  background: white;
+  border: 10px solid black;
+  line-height: 39px;
+  width: auto;
+  margin: 0 auto;
+  padding: 23px 40px 44px 40px;
+}
+.epizodes h1 {
+  letter-spacing: 20px;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  line-height: 50px;
+  margin: 0px auto 16px;
+}
+
+.blocks_epi {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  width: auto;
+  height: auto;
+  background-color: black;
+  padding: 37px 64px;
+}/*# sourceMappingURL=Epizodes.css.map */
